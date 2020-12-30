@@ -6,12 +6,12 @@ import (
 func createSnippet(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodPost {
 		w.Header().Set("Allow", http.MethodPost)
-		w.WriteHeader(405)
-		w.Write([]byte("Method Not Allowed"))
+		http.Error(w, "This Method Not Allowed", 405)
 		return
 	}
-	w.Write([]byte("Create a new snippet..."))
+	w.Write([]byte("Create a new snippet, Bro..."))
 }
+
 
 func main() {
 	mux := http.NewServeMux()
