@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66f5622c-8e86-4536-9936-ca6c06b5a880" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cmd/web/handlers.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/web/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/web/handlers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/web/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/web/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,18 +58,18 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go main.go handlers.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="snippetbox" />
       <working_directory value="$PROJECT_DIR$/cmd/web" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main.go|$PROJECT_DIR$/cmd/web/main.go" />
+      <filePath value="$PROJECT_DIR$/main.go|$PROJECT_DIR$/cmd/web/main.go|$PROJECT_DIR$/cmd/web/handlers.go" />
       <package value="snippetbox" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go main.go" />
+        <item itemvalue="Go Build.go build main.go main.go handlers.go" />
       </list>
     </recent_temporary>
   </component>
