@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66f5622c-8e86-4536-9936-ca6c06b5a880" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ui/html/base.layout.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/html/footer.partial.tmpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/web/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/web/handlers.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/html/html.page.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/ui/html/html.page.tmpl" afterDir="false" />
